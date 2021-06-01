@@ -30,7 +30,18 @@ manualrows: true
 
 <div class="col-xs-6 col-sm-3" markdown="1">
 ## Lecturers
-* TBD
+* Antonios Tsokaros
+* Atul Kedia
+* Boris Daszuta
+* Bruno Giocomazzo
+* Deborah Ferguson
+* Don Willcox
+* Helvi Witek
+* Maria Babiuc
+* Philipp Moesta
+* Steve Brandt
+* Wolfgang Kastaun
+* Yosef Zlochower
 </div>
 
 <div class="col-xs-6 col-sm-3" markdown="1">

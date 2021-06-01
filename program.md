@@ -2,11 +2,19 @@
 layout: default
 title: Scientific Program
 day1_1:
-  title: Foo bar
+  title: Welcome/ET status
   desc: >-
     some long text with a link
     [google](https://google.com)
+day1_2:
+  title: School II
+day1_3:
+  title: School III
 day1_4:
+  title: School IV
+day1_5:
+  title: School V
+day4_1:
   title: some tutorial
   desc: >-
     Some list:
@@ -14,7 +22,27 @@ day1_4:
       * second
       * third
 day2_1:
-  title: Late Welcome
+  title: School I
+day2_2:
+  title: School II
+day2_3:
+  title: School III
+day2_4:
+  title: School IV
+day2_5:
+  title: School V
+
+day3_1:
+  title: School I
+day3_2:
+  title: School II
+day3_3:
+  title: School III
+day3_4:
+  title: School IV
+day3_5:
+  title: School V
+
 ---
 
 <div class="col-xs-12">
@@ -37,7 +65,6 @@ TBD
 </div> <!--tzinfo-->
 </div>
 
-{% comment %}
 
 <div class="col-xs-12" markdown="1">
 ## Schedule overview
@@ -61,25 +88,25 @@ All times US Central time.
 <th> Day 5 </th>
 </tr>
 <tr><td>9:00 AM</td><td>9:45 AM</td>
-  <td markdown="span" rowspan=3><b>{{page.day1_1.title}}</b></td>
-  <td markdown="span"><b>{{page.day2_1.title}}</b></td>
-  <td markdown="span"><b>{{page.day3_1.title}}</b></td>
-  <td markdown="span"><b>{{page.day4_1.title}}</b></td>
-  <td markdown="span"><b>{{page.day5_1.title}}</b></td>
+  <td markdown="span" rowspan=1><b>{{page.day1_1.title}}</b></td>
+  <td markdown="span"><b>{{page.day1_2.title}}</b></td>
+  <td markdown="span"><b>{{page.day1_3.title}}</b></td>
+  <td markdown="span"><b>{{page.day1_4.title}}</b></td>
+  <td markdown="span"><b>{{page.day1_5.title}}</b></td>
 </tr>
 <tr><td>9:50 AM</td><td>10:35 AM</td>
-  <!--<td markdown="span"><b>{{page.day1_2.title}}</b></td>-->
+  <td markdown="span"><b>{{page.day2_1.title}}</b></td>
   <td markdown="span"><b>{{page.day2_2.title}}</b></td>
-  <td markdown="span"><b>{{page.day3_2.title}}</b></td>
-  <td markdown="span"><b>{{page.day4_2.title}}</b></td>
-  <td markdown="span"><b>{{page.day5_2.title}}</b></td>
+  <td markdown="span"><b>{{page.day2_3.title}}</b></td>
+  <td markdown="span"><b>{{page.day2_4.title}}</b></td>
+  <td markdown="span"><b>{{page.day2_5.title}}</b></td>
 </tr>
 <tr><td>10:40 AM</td><td>10:25 AM</td>
-  <!--<td markdown="span"><b>{{page.day1_3.title}}</b></td>-->
-  <td markdown="span"><b>{{page.day2_3.title}}</b></td>
+  <td markdown="span"><b>{{page.day3_1.title}}</b></td>
+  <td markdown="span"><b>{{page.day3_2.title}}</b></td>
   <td markdown="span"><b>{{page.day3_3.title}}</b></td>
-  <td markdown="span"><b>{{page.day4_3.title}}</b></td>
-  <td markdown="span"><b>{{page.day5_3.title}}</b></td>
+  <td markdown="span"><b>{{page.day3_4.title}}</b></td>
+  <td markdown="span"><b>{{page.day3_5.title}}</b></td>
 </tr>
 <tr><td>11:25 AM</td><td>11:45 AM</td>
   <td>break</td>
@@ -179,4 +206,3 @@ All times US Central time.
 </div> <!-- row -->
 </div> <!-- per-day schedule -->
 
-{% endcomment %}
