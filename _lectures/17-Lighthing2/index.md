@@ -1,9 +1,9 @@
 ---
 layout: default
 usemathjax: true
-title: New user tutorial
-author: Steven Brandt
-institution: LSU
+title: Lighting II
+author: TBD
+institution: RIT
 slides: slides.pdf
 files:
   - file1.pdf

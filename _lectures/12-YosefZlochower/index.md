@@ -1,7 +1,7 @@
 ---
 layout: default
 usemathjax: true
-title: Using LORENE data I
+title: Maxwell vaccum thorn
 author: Yosef Zlochower
 institution: RIT
 slides: slides.pdf

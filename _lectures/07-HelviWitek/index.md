@@ -1,7 +1,7 @@
 ---
 layout: default
 usemathjax: true
-title: Numerical Relativity
+title: Numerical relativity
 author: Helvi Witek
 institution: The University of Illinois Urbana Champaign
 slides: slides.pdf

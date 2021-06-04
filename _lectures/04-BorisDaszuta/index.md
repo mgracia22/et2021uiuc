@@ -1,8 +1,8 @@
 ---
 layout: default
 usemathjax: true
-title: LORENE I
-author: Bruno Giocomazzo
+title: GRAthena++
+author: Boris Daszuta
 institution: 
 slides: slides.pdf
 files:
