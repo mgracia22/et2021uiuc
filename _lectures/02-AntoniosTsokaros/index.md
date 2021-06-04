@@ -1,9 +1,9 @@
 ---
 layout: default
 usemathjax: true
-title: TBD
-author: Deborah Ferguson
-institution: The University of Texas at Austin
+title: Binary neutron star ID theory	
+author: Antonios Tsokaros
+institution: 
 slides: slides.pdf
 files:
   - file1.pdf

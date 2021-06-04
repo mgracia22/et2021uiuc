@@ -7,7 +7,7 @@ day1_1:
     some long text with a link
     [google](https://google.com)
 day1_2:
-  title: School II
+  title: Topic II
 day1_3:
   title: School III
 day1_4:
@@ -57,7 +57,7 @@ day4_5:
 day5_1:
   title: Topic I
 day5_2:
-  title: Topic II
+  title: School II
 day5_3:
   title: Lighting III
 day5_4:
@@ -86,7 +86,7 @@ TBD
 | US Central time | 9:00 AM |  1:20 PM |
 | US Pacific time | 7:00 AM | 11:20 AM |
 | Central EU time | 4:00 PM |  8:20 PM |
-| [Other time zones](https://www.timeanddate.com/worldclock/converter.html?iso=20210726T140000&p1=33&p2=240&p3=64&p4=538&p5=176&p6=196&p7=51&p8=78&p9=213) |  |
+| [Other time zones](https://www.timeanddate.com/worldclock/converter.html?iso=20210726T140000&p1=64&p2=51&p3=213&p4=78&p5=176&p6=33&p7=538&p8=240) |  |
 
 </div> <!--tzinfo-->
 </div>
@@ -121,14 +121,13 @@ All times US Central time.
   <td markdown="span"><b>{{page.day1_5.title}}</b></td>
 </tr>
 <tr><td>9:50 AM</td><td>10:35 AM</td>
-  <td markdown="span"><b>{{page.day2_1.title}}</b></td>
+  <td markdown="span" rowspan=2><b>{{page.day2_1.title}}</b></td>
   <td markdown="span"><b>{{page.day2_2.title}}</b></td>
   <td markdown="span"><b>{{page.day2_3.title}}</b></td>
   <td markdown="span"><b>{{page.day2_4.title}}</b></td>
   <td markdown="span"><b>{{page.day2_5.title}}</b></td>
 </tr>
-<tr><td>10:40 AM</td><td>10:25 AM</td>
-  <td markdown="span"><b>{{page.day3_1.title}}</b></td>
+<tr><td>10:40 AM</td><td>11:25 AM</td>
   <td markdown="span"><b>{{page.day3_2.title}}</b></td>
   <td markdown="span"><b>{{page.day3_3.title}}</b></td>
   <td markdown="span"><b>{{page.day3_4.title}}</b></td>
@@ -176,12 +175,10 @@ All times US Central time.
   </div></td>
 </tr>
 <tr><td>9:50 AM</td><td>10:35 AM</td>
-  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[7].url}}">{{site.lectures[7].title}}</a></b><br>{{site.lectures[7].author}}
+  <td rowspan=2><div markdown="1"><b><a href="{{base}}{{site.lectures[7].url}}">{{site.lectures[7].title}}</a></b><br>{{site.lectures[7].author}}
   </div></td>
 </tr>
-<tr><td>10:40 AM</td><td>10:25 AM</td>
-  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[7].url}}">{{site.lectures[7].title}}</a></b><br>{{site.lectures[7].author}}
-  </div></td>
+<tr><td>10:40 AM</td><td>11:25 AM</td>
 </tr>
 <tr><td>11:25 AM</td><td>11:45 AM</td>
   <td>break</td>
@@ -204,26 +201,26 @@ All times US Central time.
 <tr><th> start </th><th> end </th> <th>  </th>
 </tr>
 <tr><td>9:00 AM</td><td>9:45 AM</td>
-  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[8].url}}">{{site.lectures[8].title}}</a></b><br>{{site.lectures[8].author}}
+  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[2].url}}">{{site.lectures[2].title}}</a></b><br>{{site.lectures[2].author}}
   </div></td>
 </tr>
 <tr><td>9:50 AM</td><td>10:35 AM</td>
-  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[12].url}}">{{site.lectures[12].title}}</a></b><br>{{site.lectures[12].author}}
+  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[8].url}}">{{site.lectures[8].title}}</a></b><br>{{site.lectures[8].author}}
   </div></td>
 </tr>
 <tr><td>10:40 AM</td><td>10:25 AM</td>
-  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[3].url}}">{{site.lectures[3].title}}</a></b><br>{{site.lectures[3].author}}
+  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[13].url}}">{{site.lectures[13].title}}</a></b><br>{{site.lectures[13].author}}
   </div></td>
 </tr>
 <tr><td>11:25 AM</td><td>11:45 AM</td>
   <td>break</td>
 </tr>
 <tr><td>11:45 AM</td><td>12:30 PM</td>
-  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[3].url}}">{{site.lectures[3].title}}</a></b><br>{{site.lectures[3].author}}
+  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[5].url}}">{{site.lectures[5].title}}</a></b><br>{{site.lectures[5].author}}
   </div></td>
 </tr>
 <tr><td>12:35 AM</td><td>1:20 PM</td>
-  <td><div markdown="1"><b>{{page.day2_5.title}}</b><br>{{page.day2_5.desc}}
+  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[3].url}}">{{site.lectures[3].title}}</a></b><br>{{site.lectures[3].author}}
   </div></td>
 </tr>
 </table>

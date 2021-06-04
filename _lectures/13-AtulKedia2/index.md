@@ -1,9 +1,9 @@
 ---
 layout: default
 usemathjax: true
-title: Using LORENE data I
-author: Bruno Giocomazzo
-institution: 
+title: LORENE ID II
+author: Atul Kedia
+institution: ND
 slides: slides.pdf
 files:
   - file1.pdf

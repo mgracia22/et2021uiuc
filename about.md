@@ -18,6 +18,7 @@ manualrows: true
 * Roland Haas
 * Philipp Moesta
 * Helvi Witek
+* Don Willcox
 * Yosef Zlochower
 </div>
 
@@ -30,23 +31,23 @@ manualrows: true
 
 <div class="col-xs-6 col-sm-3" markdown="1">
 ## Lecturers
-* Antonios Tsokaros
-* Atul Kedia
-* Boris Daszuta
-* Bruno Giocomazzo
-* Deborah Ferguson
-* Don Willcox
-* Helvi Witek
 * Maria Babiuc
-* Philipp Moesta
 * Steve Brandt
-* Wolfgang Kastaun
+* Bruno Giocomazzo
+* Atul Kedia
+* Antonios Tsokaros
+* Helvi Witek
 * Yosef Zlochower
 </div>
 
 <div class="col-xs-6 col-sm-3" markdown="1">
 ## Invited Speakers
-* TBD
+* Boris Daszuta
+* Deborah Ferguson
+* Wolfgang Kastaun
+* Philipp Moesta
+* Don Willcox
+
 </div>
 
 <div class="col-xs-6 col-sm-3" markdown="1">
