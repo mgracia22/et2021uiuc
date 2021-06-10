@@ -72,6 +72,7 @@ day5_5:
 
 <div class="col-xs-12">
 <h1>Program</h1>
+
 <!-- one of https://getbootstrap.com/docs/3.4/components/#alerts -->
 <div class="alert alert-warning" role="alert">
 Tentative, subject to change without notice
@@ -218,8 +219,8 @@ All times US Central time.
   <td>break</td>
 </tr>
 <tr><td>11:45 AM</td><td>12:30 PM</td>
-  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[5].url}}">{{site.lectures[5].title}}</a></b><br>{{site.lectures[5].author}}
-  </div></td>
+  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[5].url}}">{{site.lectures[5].title}}</a></b><br>{{site.lectures[5].author}}<br><b><a href="{{base}}{{site.lectures[3].url}}">{{site.lectures[3].title}}</a></b><br>{{site.lectures[3].author}}
+</div></td>
 </tr>
 <tr><td>12:35 AM</td><td>1:20 PM</td>
   <td><div markdown="1"><b><a href="{{base}}{{site.lectures[19].url}}">{{site.lectures[19].title}}</a></b><br>{{site.lectures[19].author}}
