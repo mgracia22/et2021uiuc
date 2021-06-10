@@ -3,7 +3,7 @@ layout: default
 usemathjax: true
 title: LORENE ID I 
 author: Maria Babiuc
-institution: The University of Texas at Austin
+institution: Marshall University
 slides: slides.pdf
 files:
   - file1.pdf

@@ -2,8 +2,8 @@
 layout: default
 usemathjax: true
 title: Spritz
-author: Federico Cipolletta?
-institution: RIT
+author: Federico Cipolletta
+institution: 
 slides: slides.pdf
 files:
   - file1.pdf

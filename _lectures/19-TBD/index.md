@@ -1,9 +1,9 @@
 ---
 layout: default
 usemathjax: true
-title: LORENE ID II
-author: Atul Kedia
-institution: University of Notre Dame
+title: TBD
+author: TBD
+institution: TBD
 slides: slides.pdf
 files:
   - file1.pdf

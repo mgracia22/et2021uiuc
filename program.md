@@ -3,11 +3,11 @@ layout: default
 title: Scientific Program
 day1_1:
   title: Welcome/ET status
-  desc: >-
+<!--desc: >-
     some long text with a link
-    [google](https://google.com)
+    [google](https://google.com)-->
 day1_2:
-  title: Topic II
+  title: School II
 day1_3:
   title: School III
 day1_4:
@@ -57,7 +57,7 @@ day4_5:
 day5_1:
   title: Topic I
 day5_2:
-  title: School II
+  title: Topic II
 day5_3:
   title: Lighting I
 day5_4:
@@ -72,7 +72,10 @@ day5_5:
 
 <div class="col-xs-12">
 <h1>Program</h1>
-
+<!-- one of https://getbootstrap.com/docs/3.4/components/#alerts -->
+<div class="alert alert-warning" role="alert">
+Tentative, subject to change without notice
+</div>
 </div>
 
 <div class="col-xs-6">
@@ -121,7 +124,7 @@ All times US Central time.
 </tr>
 <tr><td>9:50 AM</td><td>10:35 AM</td>
   <td markdown="span" rowspan=2><b>{{page.day2_1.title}}</b></td>
-  <td markdown="span"><b>{{page.day2_2.title}}</b></td>
+  <td markdown="span" rowspan=1><b>{{page.day2_2.title}}</b></td>
   <td markdown="span"><b>{{page.day2_3.title}}</b></td>
   <td markdown="span"><b>{{page.day2_4.title}}</b></td>
   <td markdown="span"><b>{{page.day2_5.title}}</b></td>
@@ -187,7 +190,7 @@ All times US Central time.
   </div></td>
 </tr>
 <tr><td>12:35 AM</td><td>1:20 PM</td>
-  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[6].url}}">{{site.lectures[6].title}}</a></b><br>{{site.lectures[6].author}}
+  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[19].url}}">{{site.lectures[19].title}}</a></b><br>{{site.lectures[19].author}}
   </div></td>
 </tr>
 </table>
@@ -219,7 +222,7 @@ All times US Central time.
   </div></td>
 </tr>
 <tr><td>12:35 AM</td><td>1:20 PM</td>
-  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[3].url}}">{{site.lectures[3].title}}</a></b><br>{{site.lectures[3].author}}
+  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[19].url}}">{{site.lectures[19].title}}</a></b><br>{{site.lectures[19].author}}
   </div></td>
 </tr>
 </table>
@@ -232,15 +235,15 @@ All times US Central time.
 <tr><th> start </th><th> end </th> <th>  </th>
 </tr>
 <tr><td>9:00 AM</td><td>9:45 AM</td>
-  <td><div markdown="1"><b>{{page.day1_3.title}}</b><br>{{page.day1_3.desc}}
+  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[19].url}}">{{site.lectures[19].title}}</a></b><br>{{site.lectures[19].author}}
   </div></td>
 </tr>
 <tr><td>9:50 AM</td><td>10:35 AM</td>
-  <td><div markdown="1"><b>{{page.day2_3.title}}</b><br>{{page.day2_3.desc}}
+  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[19].url}}">{{site.lectures[19].title}}</a></b><br>{{site.lectures[19].author}}
   </div></td>
 </tr>
 <tr><td>10:40 AM</td><td>11:25 AM</td>
-  <td><div markdown="1"><b>{{page.day3_3.title}}</b><br>{{page.day3_3.desc}}
+  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[19].url}}">{{site.lectures[19].title}}</a></b><br>{{site.lectures[19].author}}
   </div></td>
 </tr>
 <tr><td>11:25 AM</td><td>11:45 AM</td>
@@ -268,7 +271,7 @@ All times US Central time.
   </div></td>
 </tr>
 <tr><td>9:50 AM</td><td>10:35 AM</td>
-  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[9].url}}">{{site.lectures[9].title}}</a></b><br>{{site.lectures[9].author}}
+  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[12].url}}">{{site.lectures[12].title}}</a></b><br>{{site.lectures[12].author}}<br><b><a href="{{base}}{{site.lectures[15].url}}">{{site.lectures[15].title}}</a></b><br>{{site.lectures[15].author}}
   </div></td>
 </tr>
 <tr><td>10:40 AM</td><td>11:25 AM</td>
@@ -279,7 +282,7 @@ All times US Central time.
   <td>break</td>
 </tr>
 <tr><td>11:45 AM</td><td>12:30 PM</td>
-  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[11].url}}">{{site.lectures[11].title}}</a></b><br>{{site.lectures[11].author}}
+  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[11].url}}">{{site.lectures[11].title}}</a></b><br>{{site.lectures[11].author}}<br><b><a href="{{base}}{{site.lectures[14].url}}">{{site.lectures[14].title}}</a></b><br>{{site.lectures[14].author}}
   </div></td>
 </tr>
 <tr><td>12:35 AM</td><td>1:20 PM</td>
@@ -296,22 +299,20 @@ All times US Central time.
 <tr><th> start </th><th> end </th> <th>  </th>
 </tr>
 <tr><td>9:00 AM</td><td>9:45 AM</td>
-  <td><div markdown="1"><b>{{page.day1_5.title}}</b><br>{{page.day1_5.desc}}
+  <td rowspan=2><div markdown="1"><b><a href="{{base}}{{site.lectures[20].url}}">{{site.lectures[20].title}}</a></b><br>{{site.lectures[20].author}}
   </div></td>
 </tr>
 <tr><td>9:50 AM</td><td>10:35 AM</td>
-  <td><div markdown="1"><b>{{page.day2_5.title}}</b><br>{{page.day2_5.desc}}
-  </div></td>
 </tr>
 <tr><td>10:40 AM</td><td>11:25 AM</td>
-  <td><div markdown="1"><b>{{page.day3_5.title}}</b><br>{{page.day3_5.desc}}
+  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[1].url}}">{{site.lectures[1].title}}</a></b><br>{{site.lectures[1].author}}
   </div></td>
 </tr>
 <tr><td>11:25 AM</td><td>11:45 AM</td>
   <td>break</td>
 </tr>
 <tr><td>11:45 AM</td><td>12:30 PM</td>
-  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[1].url}}">{{site.lectures[1].title}}</a></b><br>{{site.lectures[1].author}}
+  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[18].url}}">{{site.lectures[18].title}}</a></b><br>{{site.lectures[18].author}}
   </div></td>
 </tr>
 <tr><td>12:35 AM</td><td>1:20 PM</td>

@@ -3,7 +3,7 @@ layout: default
 usemathjax: true
 title: Using LORENE data II
 author: Atul Kedia
-institution: ND
+institution: University of Notre Dame
 slides: slides.pdf
 files:
   - file1.pdf

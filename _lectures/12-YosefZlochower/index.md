@@ -3,7 +3,7 @@ layout: default
 usemathjax: true
 title: Maxwell vaccum thorn
 author: Yosef Zlochower
-institution: RIT
+institution: Rochester Institute of Technlogy
 slides: slides.pdf
 files:
   - file1.pdf

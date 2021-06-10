@@ -2,7 +2,7 @@
 layout: default
 usemathjax: true
 title: NRPy+ tutorial
-author: Leo Werneck??
+author: TBD
 institution: RIT
 slides: slides.pdf
 files:
