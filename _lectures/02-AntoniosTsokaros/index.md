@@ -3,7 +3,7 @@ layout: default
 usemathjax: true
 title: Binary neutron star ID theory	
 author: Antonios Tsokaros
-institution: 
+institution: University of Illinois at Urbana-Champaign
 slides: slides.pdf
 <!--files:
   - file1.pdf

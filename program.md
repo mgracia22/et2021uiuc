@@ -7,13 +7,13 @@ day1_1:
     some long text with a link
     [google](https://google.com)-->
 day1_2:
-  title: School II
+  title: Binary neutron star ID theory
 day1_3:
-  title: School III
+  title: TBD
 day1_4:
-  title: School IV
+  title: Maxwell vaccum thorn
 day1_5:
-  title: School V
+  title: 1D self-force
 day4_1:
   title: some tutorial
   desc: >-
@@ -22,46 +22,46 @@ day4_1:
       * second
       * third
 day2_1:
-  title: School I
+  title: Numerical relativity
 day2_2:
-  title: School II
+  title: LORENE ID I
 day2_3:
-  title: School III
+  title: TBD
 day2_4:
-  title: School IV
+  title: Maxwell vaccum thorn, <br>NRPy+ tutorial
 day2_5:
   title: School V
 
 day3_1:
   title: School I
 day3_2:
-  title: School II
+  title: LORENE ID II
 day3_3:
-  title: School III
+  title: TBD
 day3_4:
-  title: School IV
+  title: NRPy+ tutorial
 day3_5:
-  title: School V
+  title: Gravitational wave analysis
 
 day4_1:
-  title: School I
+  title: New user tutorial
 day4_2:
-  title: School II
+  title: Using LORENE data
 day4_3:
-  title: Topic III
+  title: Spritz,<br>GRAtenna++
 day4_4:
-  title: Topic IV
+  title: Con2Prim,<br>SphericalNR
 day4_5:
-  title: Topic V
+  title: TBD
 
 day5_1:
-  title: Topic I
+  title: AMReX
 day5_2:
-  title: Topic II
+  title: TBD
 day5_3:
-  title: Lighting I
+  title: Lighting I (TBD)
 day5_4:
-  title: Lighting II
+  title: Lighting II (TBD)
 day5_5:
   title: Future of the ET
 
@@ -74,9 +74,7 @@ day5_5:
 <h1>Program</h1>
 
 <!-- one of https://getbootstrap.com/docs/3.4/components/#alerts -->
-<div class="alert alert-warning" role="alert">
-Tentative, subject to change without notice
-</div>
+
 </div>
 
 <div class="col-xs-6">
@@ -89,7 +87,7 @@ Tentative, subject to change without notice
 | US Central time | 9:00 AM |  1:20 PM |
 | US Pacific time | 7:00 AM | 11:20 AM |
 | Central EU time | 4:00 PM |  8:20 PM |
-| [Other time zones](https://www.timeanddate.com/worldclock/converter.html?iso=20210726T140000&p1=64&p2=51&p3=213&p4=78&p5=176&p6=33&p7=538&p8=240) |  |
+| [Other time zones](https://www.timeanddate.com/worldclock/converter.html?iso=20210726T140000&p1=64&p2=51&p3=78&p4=141&p5=176&p6=33&p7=538&p8=240) |  |
 
 </div> <!--tzinfo-->
 </div>
@@ -97,8 +95,12 @@ Tentative, subject to change without notice
 
 <div class="col-xs-12" markdown="1">
 ## Schedule overview
+<div class="alert alert-warning" role="alert">
+Tentative, subject to change without notice.
+</div>
 
 All times US Central time.
+
 
 <!-- add schedule entries to the yaml data in the preamble.
      right now you will have to manually add a rowspan attribute and comment
@@ -121,14 +123,13 @@ All times US Central time.
   <td markdown="span"><b>{{page.day1_2.title}}</b></td>
   <td markdown="span"><b>{{page.day1_3.title}}</b></td>
   <td markdown="span"><b>{{page.day1_4.title}}</b></td>
-  <td markdown="span"><b>{{page.day1_5.title}}</b></td>
+  <td markdown="span" rowspan=2><b>{{page.day1_5.title}}</b></td>
 </tr>
 <tr><td>9:50 AM</td><td>10:35 AM</td>
   <td markdown="span" rowspan=2><b>{{page.day2_1.title}}</b></td>
   <td markdown="span" rowspan=1><b>{{page.day2_2.title}}</b></td>
   <td markdown="span"><b>{{page.day2_3.title}}</b></td>
-  <td markdown="span"><b>{{page.day2_4.title}}</b></td>
-  <td markdown="span"><b>{{page.day2_5.title}}</b></td>
+  <td markdown="span"><b>{{page.day2_4.title}}</b></td>  
 </tr>
 <tr><td>10:40 AM</td><td>11:25 AM</td>
   <td markdown="span"><b>{{page.day3_2.title}}</b></td>
@@ -191,7 +192,7 @@ All times US Central time.
   </div></td>
 </tr>
 <tr><td>12:35 AM</td><td>1:20 PM</td>
-  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[19].url}}">{{site.lectures[19].title}}</a></b><br>{{site.lectures[19].author}}
+  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[6].url}}">{{site.lectures[6].title}}</a></b><br>{{site.lectures[6].author}}
   </div></td>
 </tr>
 </table>
@@ -251,7 +252,7 @@ All times US Central time.
   <td>break</td>
 </tr>
 <tr><td>11:45 AM</td><td>12:30 PM</td>
-  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[4].url}}">{{site.lectures[4].title}}</a></b><br>{{site.lectures[4].author}}
+ <td><div markdown="1"><b><a href="{{base}}{{site.lectures[18].url}}">{{site.lectures[18].title}}</a></b><br>{{site.lectures[18].author}}<br><b><a href="{{base}}{{site.lectures[4].url}}">{{site.lectures[4].title}}</a></b><br>{{site.lectures[4].author}} 
   </div></td>
 </tr>
 <tr><td>12:35 AM</td><td>1:20 PM</td>
@@ -313,7 +314,7 @@ All times US Central time.
   <td>break</td>
 </tr>
 <tr><td>11:45 AM</td><td>12:30 PM</td>
-  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[18].url}}">{{site.lectures[18].title}}</a></b><br>{{site.lectures[18].author}}
+  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[19].url}}">{{site.lectures[19].title}}</a></b><br>{{site.lectures[19].author}}
   </div></td>
 </tr>
 <tr><td>12:35 AM</td><td>1:20 PM</td>

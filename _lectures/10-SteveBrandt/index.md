@@ -3,7 +3,7 @@ layout: default
 usemathjax: true
 title: New user tutorial
 author: Steven Brandt
-institution: LSU
+institution: Louisiana State University
 slides: slides.pdf
 files:
   - file1.pdf
@@ -16,14 +16,11 @@ recording: ""
 {%-capture abstract-%}
 TBD
 
-* GW wave analysis
-* eggs
+* New user tutorial
 
-and use $$\LaTeX$$ to display
 
-$$\begin{equation}E = m c^2\end{equation}$$
+
 {%-endcapture-%}
 
 {% include lecture.md author=page.author institution=page.institution title=page.title abstract=abstract slides=page.slides files=page.files recording=page.recording%}
 
-Anything else that should appear after the "front matter" stuff above.
