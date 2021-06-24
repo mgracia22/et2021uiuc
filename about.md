@@ -18,7 +18,6 @@ manualrows: true
 * Roland Haas
 * Philipp Moesta
 * Helvi Witek
-* Don Willcox
 * Yosef Zlochower
 </div>
 
@@ -33,9 +32,11 @@ manualrows: true
 ## Lecturers
 * Maria Babiuc
 * Steve Brandt
-* Bruno Giocomazzo
+* Bruno Giacomazzo
 * Atul Kedia
+* Vassilios Mewes
 * Antonios Tsokaros
+* Leonardo Werneck
 * Helvi Witek
 * Yosef Zlochower
 </div>
@@ -46,8 +47,8 @@ manualrows: true
 * Deborah Ferguson
 * Wolfgang Kastaun
 * Philipp Moesta
+* Barry Wardell
 * Don Willcox
-
 </div>
 
 <div class="col-xs-6 col-sm-3" markdown="1">
